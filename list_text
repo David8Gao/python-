@@ -1,0 +1,22 @@
+#列表增加元素
+a = [10,20,30,40,10,10]
+a.append(50)#在列表最后增加一个元素50
+print(a)
+a.insert(1,15)#在a列表第一个位置插入一个元素15
+print(a)
+a.remove(30)#移除列表a的元素30
+print(a)
+b = a.pop(0)#弹出第0个元素并赋值给b
+print(a)
+a.clear()#删除列表内所有元素，保留空列表
+print(a)
+b = list("abcdefaba")
+print(b)
+print(b.index("b"))#返回元素“b”在列表b中第一次出现的位置
+print(b.count("a"))#返回元素“a”在列表出现的次数
+print(len(b))#返回列表的长度
+b.reverse()#翻转颠倒列表b,改变列表内元素的正反顺序
+print(b)
+b.sort()#所有元素原地排序
+print(b)
+print(b.copy())#返回列表对象的浅拷贝
